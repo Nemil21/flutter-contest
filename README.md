@@ -1,16 +1,17 @@
-# workshopapp
+# Disney Characters Lister
 
-A new Flutter project.
+This project is made for a competition organized by GDSC Pdeu and ENCODE Club
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+The skeleton code used in this project is from the workshop organized by encode conducted by Haard shah.
+The main aim of the Project is to call an API through the app and appropriately present the received information.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Features
+- The app checks if some information is present and if there is no available information about a particular field then it gives a "No information available message"
+- Custom fonts have been added to the app
+- Professional color palettes have been used.
+- Entries are displayed in a bullet list format
+- Factory functions have a few list entries.
+- async await functions are used to make resolving promises easier
+- Free API services have been used to demonstrate app development capabilities.
