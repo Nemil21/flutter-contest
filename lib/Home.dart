@@ -65,6 +65,7 @@ class Home extends StatelessWidget {
 // }
 
 body: Container(
+   color: Color.fromRGBO(18, 64, 118, 1),
   child: Column(
     mainAxisAlignment: MainAxisAlignment.center,
     children: [
@@ -75,7 +76,7 @@ body: Container(
             'Click this button to list Disney Characters',
             style: TextStyle(
               fontSize: 8.sp,
-              color: Colors.black,
+              color: Colors.white,
               fontWeight: FontWeight.bold,
             ),
           ),
