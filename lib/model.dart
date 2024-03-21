@@ -1,5 +1,5 @@
 class Character{
-  late String id;
+  late int id;
   late String name;
   late List<String> films;
   late List<String> shortFilms;

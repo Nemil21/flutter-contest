@@ -18,7 +18,7 @@ class Home extends StatelessWidget {
             Row(
               children: [
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(275,150,150,50),
+                  padding: const EdgeInsets.fromLTRB(450,150,150,50),
                   child: Text('Click this button to list Disney Characters',
                               style: TextStyle(
                                 fontSize: 8.sp,
