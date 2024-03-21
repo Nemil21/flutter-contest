@@ -15,3 +15,7 @@ The main aim of the Project is to call an API through the app and appropriately 
 - Factory functions have a few list entries.
 - async await functions are used to make resolving promises easier
 - Free API services have been used to demonstrate app development capabilities.
+
+## Future plans 
+- To make personalized cards with images for each character
+- To add a search box that searches from the list and displays content for the relevant character
