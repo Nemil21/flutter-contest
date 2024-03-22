@@ -26,7 +26,8 @@ class characterWidget extends StatelessWidget {
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: Colors.white,
-                        fontSize: 5.sp)),
+                        fontSize: 5.sp,
+                        fontFamily: 'interTight')),
                 Text('Name -' + char.name,
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
@@ -44,7 +45,8 @@ class characterWidget extends StatelessWidget {
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: Colors.white,
-                        fontSize: 3.sp))
+                        fontSize: 3.sp,
+                        fontFamily: 'interTight'))
               ],
             ),
           ),
@@ -85,19 +87,22 @@ class characterWidget extends StatelessWidget {
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: Colors.white,
-                        fontSize: 3.sp)),
+                        fontSize: 3.sp,
+                        fontFamily: 'interTight')),
                 if (char.shortFilms.isEmpty)
                   Text('No short films for this character',
                       style: TextStyle(
                           fontWeight: FontWeight.bold,
                           color: Colors.red,
-                          fontSize: 3.sp)),
+                          fontSize: 3.sp,
+                          fontFamily: 'interTight')),
                 if (char.shortFilms.isNotEmpty)
                   Text('${char.shortFilms.join(', ')}',
                       style: TextStyle(
                           fontWeight: FontWeight.bold,
                           color: Colors.white,
-                          fontSize: 3.sp)),
+                          fontSize: 3.sp,
+                          fontFamily: 'interTight')),
               ],
             ),  
           ),
@@ -109,19 +114,22 @@ class characterWidget extends StatelessWidget {
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: Colors.white,
-                        fontSize: 3.sp)),
+                        fontSize: 3.sp,
+                        fontFamily: 'interTight')),
                 if (char.tvShows.isEmpty)
                   Text('No TV shows for this character',
                       style: TextStyle(
                           fontWeight: FontWeight.bold,
                           color: Colors.red,
-                          fontSize: 3.sp)),
+                          fontSize: 3.sp,
+                          fontFamily: 'interTight')),
                 if (char.tvShows.isNotEmpty)
                   Text('${char.tvShows.join(', ')}',
                       style: TextStyle(
                           fontWeight: FontWeight.bold,
                           color: Colors.white,
-                          fontSize: 3.sp))
+                          fontSize: 3.sp,
+                          fontFamily: 'interTight'))
               ],
             ),
           ),
@@ -133,19 +141,22 @@ class characterWidget extends StatelessWidget {
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: Colors.white,
-                        fontSize: 3.sp)),
+                        fontSize: 3.sp,
+                        fontFamily: 'interTight')),
                 if (char.tvShows.isEmpty)
                   Text('No Video Games for this character',
                       style: TextStyle(
                           fontWeight: FontWeight.bold,
                           color: Colors.red,
-                          fontSize: 3.sp)),
+                          fontSize: 3.sp,
+                          fontFamily: 'interTight')),
                 if (char.tvShows.isNotEmpty)
                   Text('${char.tvShows.join(', ')}',
                       style: TextStyle(
                           fontWeight: FontWeight.bold,
                           color: Colors.white,
-                          fontSize: 3.sp))
+                          fontSize: 3.sp,
+                          fontFamily: 'interTight'))
               ],
             ),
           ),
