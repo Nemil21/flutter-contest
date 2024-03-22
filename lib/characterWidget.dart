@@ -104,7 +104,7 @@ class characterWidget extends StatelessWidget {
                           fontSize: 3.sp,
                           fontFamily: 'interTight')),
               ],
-            ),  
+            ),
           ),
           Padding(
             padding: const EdgeInsets.fromLTRB(10, 2, 10, 2),
@@ -151,12 +151,21 @@ class characterWidget extends StatelessWidget {
                           fontSize: 3.sp,
                           fontFamily: 'interTight')),
                 if (char.videoGames.isNotEmpty)
-                  Text('${char.videoGames.join(', ')}',
-                      style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          color: Colors.white,
-                          fontSize: 3.sp,
-                          fontFamily: 'interTight'))
+                  Expanded(
+                    child: Text(char.videoGames.join(', '),
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white,
+                            fontSize: 3.sp,
+                            fontFamily: 'interTight')),
+                  )
+                // )if (char.videoGames.isNotEmpty)
+                // Text('${char.videoGames.join(', ')}',
+                //     style: TextStyle(
+                //         fontWeight: FontWeight.bold,
+                //         color: Colors.white,
+                //         fontSize: 3.sp,
+                //         fontFamily: 'interTight'))
               ],
             ),
           ),
@@ -165,4 +174,3 @@ class characterWidget extends StatelessWidget {
     );
   }
 }
-
