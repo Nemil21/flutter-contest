@@ -16,6 +16,7 @@ The main aim of the Project is to call an API through the app and appropriately 
 - async await functions are used to make resolving promises easier
 - Free API services have been used to demonstrate app development capabilities.
 - Made responsive to adapt to different platforms
+- Some contents have been wrapped so as to prevent the renderblock from overflowing
 
 ## Future plans 
 - To make personalized cards with images for each character
