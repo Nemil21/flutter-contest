@@ -9,7 +9,7 @@ class characterWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-       color: Color.fromRGBO(18, 64, 118, 1),
+      color: Color.fromRGBO(18, 64, 118, 1),
       child: Column(
         children: [
           Padding(
@@ -20,11 +20,13 @@ class characterWidget extends StatelessWidget {
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: Colors.white,
-                        fontSize: 7.sp,
+                        fontSize: 5.sp,
                         fontFamily: 'interTight')),
                 Text('-------',
-                    style:
-                        TextStyle(fontWeight: FontWeight.bold,color: Colors.white, fontSize: 5.sp)),
+                    style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                        fontSize: 5.sp)),
                 Text('Name -' + char.name,
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
@@ -33,14 +35,17 @@ class characterWidget extends StatelessWidget {
                         fontFamily: 'interTight'))
               ],
             ),
-          ),Padding(
+          ),
+          Padding(
             padding: const EdgeInsets.fromLTRB(10, 2, 10, 2),
             child: Row(
-              children: [Text('Films - ',
-                  style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      color: Colors.white,
-                      fontSize: 3.sp))],
+              children: [
+                Text('Films - ',
+                    style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                        fontSize: 3.sp))
+              ],
             ),
           ),
           Padding(
@@ -49,9 +54,8 @@ class characterWidget extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: char.films.map((film) {
                 return ListTile(
-                  contentPadding:
-                      EdgeInsets.fromLTRB(1,1,1,1),
-                  leading: Icon(Icons.arrow_right),
+                  contentPadding: EdgeInsets.fromLTRB(1, 1, 1, 1),
+                  leading: Icon(Icons.arrow_right, color: Colors.white),
                   title: Text(
                     film,
                     style: TextStyle(
@@ -93,9 +97,9 @@ class characterWidget extends StatelessWidget {
                       style: TextStyle(
                           fontWeight: FontWeight.bold,
                           color: Colors.white,
-                          fontSize: 5.sp)),
+                          fontSize: 3.sp)),
               ],
-            ),
+            ),  
           ),
           Padding(
             padding: const EdgeInsets.fromLTRB(10, 2, 10, 2),
@@ -107,7 +111,7 @@ class characterWidget extends StatelessWidget {
                         color: Colors.white,
                         fontSize: 3.sp)),
                 if (char.tvShows.isEmpty)
-                  Text('No short films for this character',
+                  Text('No TV shows for this character',
                       style: TextStyle(
                           fontWeight: FontWeight.bold,
                           color: Colors.red,
@@ -131,7 +135,7 @@ class characterWidget extends StatelessWidget {
                         color: Colors.white,
                         fontSize: 3.sp)),
                 if (char.tvShows.isEmpty)
-                  Text('No short films for this character',
+                  Text('No Video Games for this character',
                       style: TextStyle(
                           fontWeight: FontWeight.bold,
                           color: Colors.red,
