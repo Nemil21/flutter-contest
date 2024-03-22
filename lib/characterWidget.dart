@@ -150,7 +150,7 @@ class characterWidget extends StatelessWidget {
                           color: Colors.red,
                           fontSize: 3.sp,
                           fontFamily: 'interTight')),
-                if (char.tvShows.isNotEmpty)
+                if (char.videoGames.isNotEmpty)
                   Text('${char.videoGames.join(', ')}',
                       style: TextStyle(
                           fontWeight: FontWeight.bold,
