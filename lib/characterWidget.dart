@@ -51,7 +51,7 @@ class characterWidget extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.fromLTRB(10, 2, 10, 2),
+            padding: const EdgeInsets.fromLTRB(10, 1, 10, 1),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: char.films.map((film) {
@@ -143,7 +143,7 @@ class characterWidget extends StatelessWidget {
                         color: Colors.white,
                         fontSize: 3.sp,
                         fontFamily: 'interTight')),
-                if (char.tvShows.isEmpty)
+                if (char.videoGames.isEmpty)
                   Text('No Video Games for this character',
                       style: TextStyle(
                           fontWeight: FontWeight.bold,
@@ -151,7 +151,7 @@ class characterWidget extends StatelessWidget {
                           fontSize: 3.sp,
                           fontFamily: 'interTight')),
                 if (char.tvShows.isNotEmpty)
-                  Text('${char.tvShows.join(', ')}',
+                  Text('${char.videoGames.join(', ')}',
                       style: TextStyle(
                           fontWeight: FontWeight.bold,
                           color: Colors.white,
@@ -165,3 +165,4 @@ class characterWidget extends StatelessWidget {
     );
   }
 }
+
